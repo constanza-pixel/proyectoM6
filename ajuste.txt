@@ -1,0 +1,9 @@
+1. Ajustar la versión de eslint-plugin-vue
+Instalar la versión 7.x que es compatible con @vue/eslint-config-standard: 
+npm install eslint-plugin-vue@^7.20.
+
+2. Actualizar @vue/eslint-config-standard
+Si quieres mantener eslint-plugin-vue, necesitas una versión más reciente de 
+@vue/eslint-config-standard que soporte esa versión.
+
+Ejemplo: npm install @vue/eslint-config-standard@6.1.0 --save-dev
